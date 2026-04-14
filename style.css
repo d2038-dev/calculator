@@ -11,3 +11,37 @@ body {
 button {
   font: inherit;
 }
+
+.wrapper {
+  display: flex;
+  padding-top: 100px;
+  justify-content: center;
+}
+
+.calculator {
+  background-color: gray;
+  padding: 50px;
+  border: 3px solid black;
+  border-radius: 30px;
+}
+
+.calculator__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 380px;
+}
+
+.calculator__button {
+  border: 3px solid black;
+  flex: 0 0 80px;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator__button--size-double {
+  flex: 0 0 180px;
+  aspect-ratio: 9 / 4;
+}
