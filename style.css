@@ -26,6 +26,33 @@ button {
   border-radius: 30px;
 }
 
+.calculator__display {
+  width: 380px;
+  height: 100px;
+  border: 3px solid black;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.calculator__operation-line,
+.calculator__number-line {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.calculator__operation-line {
+  height: 40%;
+  font-size: 20px;
+}
+
+.calculator__number-line {
+  height: 60%;
+  font-size: 40px;
+}
+
 .calculator__buttons {
   display: flex;
   flex-wrap: wrap;
