@@ -14,8 +14,9 @@ button {
 
 .wrapper {
   display: flex;
-  padding-top: 100px;
   justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .calculator {
@@ -34,14 +35,14 @@ button {
 
 .calculator__button {
   border: 3px solid black;
-  flex: 0 0 80px;
-  aspect-ratio: 1 / 1;
+  width: 80px;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
 }
 
 .calculator__button--size-double {
-  flex: 0 0 180px;
-  aspect-ratio: 9 / 4;
+  width: 180px;
 }
