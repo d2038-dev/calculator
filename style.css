@@ -20,13 +20,14 @@ button {
 }
 
 .calculator {
-  background-color: gray;
+  background-color: #5d5d5d;
   padding: 50px;
   border: 3px solid black;
   border-radius: 30px;
 }
 
 .calculator__display {
+  background-color: #E0FFD1;
   width: 380px;
   height: 100px;
   border: 3px solid black;
@@ -68,6 +69,23 @@ button {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  font-size: 24px;
+}
+
+.calculator__button--type-number {
+  background-color: #03a9f4;
+}
+
+.calculator__button--type-operator {
+  background-color: #3ebd43;
+}
+
+.calculator__button--type-clear {
+  background-color: #e51818;
+}
+
+.calculator__button--type-del {
+  background-color: #ff9800;
 }
 
 .calculator__button--size-double {
